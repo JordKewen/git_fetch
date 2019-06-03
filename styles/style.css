@@ -1,0 +1,227 @@
+.search_container {
+  height: 51px;
+}
+
+.search_container input {
+  width: 75%;
+}
+
+.search_container .input_w_button {
+  padding: 1em;
+  width: 95%;
+}
+
+.search_container .input_w_button .input_text {
+  padding-left: 1em;
+  border: solid 1px black;
+  border-radius: 3px;
+  outline: none;
+}
+
+.search_container .input_w_button .searchButton {
+  background: #f8f8f8;
+  border-radius: 3px;
+  outline: none;
+}
+
+.search_container .input_w_button .searchButton:hover {
+  background: white;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.hidden {
+  max-height: 0px;
+  overflow: hidden;
+}
+
+.show {
+  max-height: 1000px;
+  -webkit-transition: max-height 0.7s;
+  transition: max-height 0.7s;
+}
+
+.hideError {
+  max-height: 0px;
+  overflow: hidden;
+}
+
+.showError {
+  height: 100%;
+  background-color: #fadede;
+  padding: 1em 2em;
+  margin: 1em;
+  border-radius: 5px;
+  color: #a63f3e;
+}
+
+.repo_container {
+  -ms-flex-preferred-size: 225px;
+      flex-basis: 225px;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-top: -36px;
+  height: 189px;
+}
+
+.repo_container .li_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 0 2em;
+}
+
+.repo_container .li_container .repo_name {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+}
+
+.repo_container .li_container .repo_name div {
+  border-bottom: 1px solid black;
+  padding: 1em 0;
+}
+
+.repo_container .li_container .repo_name div div {
+  padding-left: 0.5em;
+}
+
+.repo_container .li_container .stars_and_forks {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  -ms-grid-column: 5;
+  grid-column: 5;
+}
+
+.repo_container .li_container .stars div {
+  border-bottom: 1px solid black;
+  padding: 1em 0;
+}
+
+.repo_container .li_container .stars div .star_img {
+  height: 13px;
+  width: 10px;
+}
+
+.repo_container .li_container .forks div {
+  border-bottom: 1px solid black;
+  padding: 1em 0;
+}
+
+.repo_container .li_container .forks div .fork_img {
+  height: 13px;
+  width: 10px;
+}
+
+.search_container {
+  height: 51px;
+}
+
+.search_container input {
+  width: 75%;
+}
+
+.search_container .input_w_button {
+  padding: 1em;
+  width: 95%;
+}
+
+.search_container .input_w_button .input_text {
+  padding-left: 1em;
+  border: solid 1px black;
+  border-radius: 3px;
+  outline: none;
+}
+
+.search_container .input_w_button .searchButton {
+  background: #f8f8f8;
+  border-radius: 3px;
+  outline: none;
+}
+
+.search_container .input_w_button .searchButton:hover {
+  background: white;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.profile_box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 0 1em;
+}
+
+.profile_box .img_box {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  padding: 1em;
+}
+
+.profile_box .details {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+  padding: 1em;
+}
+
+.profile_box .details .name {
+  font-size: 39px;
+}
+
+.profile_box .header {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  height: 31px;
+  padding-left: 1em;
+  border-bottom: 1px solid black;
+  padding-top: 2em;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat();
+      grid-template-columns: repeat();
+  padding-top: 3em;
+}
+
+.main_container {
+  width: 481px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  -webkit-box-shadow: 0 53px 38px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 53px 38px 0 rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.main_container a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main_container a:hover {
+  opacity: .5;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+/*# sourceMappingURL=style.css.map */

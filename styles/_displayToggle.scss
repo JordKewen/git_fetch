@@ -1,0 +1,10 @@
+.hidden{
+    max-height: 0px;
+    overflow:hidden;
+}
+.show{
+    max-height: 1000px;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s
+}
