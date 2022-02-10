@@ -9,6 +9,6 @@
   "author": "Jordan Kewen",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.5.3"
+    "node-sass": "^7.0.0"
   }
 }
